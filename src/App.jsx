@@ -1,6 +1,7 @@
 import Accordion from "./components/Accordion";
 import Calculator from "./components/Calculator";
 import Counter from "./components/Counter";
+import Form from "./components/Form";
 import HiddenSearchBar from "./components/HiddenSearchBar";
 import Meals from "./components/Meals";
 import Testimonials from "./components/Testimonials";
@@ -18,11 +19,12 @@ import {accordionData} from "./utils/content"
      {/* <ToggleBackgroundColor /> */}
      {/* <HiddenSearchBar /> */}
      {/* <Testimonials /> */}
-     <div className="accordion">
+     {/* <div className="accordion">
         {accordionData.map(({ title, content }) => (
           <Accordion title={title} content={content} />
         ))}
-      </div>
+      </div> */}
+      <Form />
     </div>
   );
 };
